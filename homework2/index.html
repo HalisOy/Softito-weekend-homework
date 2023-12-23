@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Open console
+    <script>
+        let n = prompt("Lütfen sayı giriniz.");
+        let toplam = 1;
+        let ilksayi = 0;
+        let fibonacci = [];
+        for (let i = 0; i < n; i++) {
+            fibonacci.push(toplam);
+            let temp = toplam;
+            toplam += ilksayi;
+            ilksayi = temp;
+        }
+        console.log(fibonacci);
+    </script>
+</body>
+</html>
