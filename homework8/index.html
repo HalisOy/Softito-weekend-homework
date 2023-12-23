@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework8</title>
+</head>
+<body>
+    Open console
+    <script>
+        let teksayi = [];
+        let ciftsayi = [];
+        for (let i = 1; i <= 20; i++) {
+            let sayi = +prompt(i+". sayiyi giriniz.");
+            if(sayi % 2 == 0) ciftsayi.push(sayi);
+            else teksayi.push(sayi);
+        }
+
+        console.log("Tek sayılar " + teksayi);
+        console.log("Çift sayılar " + ciftsayi);
+    </script>
+</body>
+</html>

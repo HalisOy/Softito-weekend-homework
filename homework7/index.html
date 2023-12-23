@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework7</title>
+</head>
+<body>
+    Open console
+    <script>
+        let toplam = 0;
+        let count = 0;
+        let sayi = 1;
+
+        while (sayi > 0) {
+            sayi = +prompt("Lütfen bir sayı giriniz.");
+            if(sayi > 0)
+            {
+                toplam += sayi;
+                count++;
+            }
+        }
+        toplam /= count
+        console.log(toplam);
+    </script>
+</body>
+</html>
