@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework3</title>
+</head>
+
+<body>
+    Open console
+    <script>
+        let n = +prompt("Lütfen bir sayı giriniz.")
+        let tambolen = [];
+        for (let i = 1; i <= n / 2; i++) {
+            if (n % i == 0) tambolen.push(i);
+        }
+        tambolen.push(n);
+        console.log(tambolen)
+    </script>
+</body>
+
+</html>
