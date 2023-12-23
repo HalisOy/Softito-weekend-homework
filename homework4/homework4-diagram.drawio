@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" modified="2023-12-23T14:50:11.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jn9CR7QLdjw3KFlW-WI5" version="22.1.11" type="device">
+  <diagram name="Sayfa -1" id="yiRPvvSt5QnNHpDDsqgL">
+    <mxGraphModel dx="946" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l4TFurfITF2KFFCBmmSl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-1" target="l4TFurfITF2KFFCBmmSl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-1" value="Başla" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="10" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-2" target="l4TFurfITF2KFFCBmmSl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-2" value="let sayilar = []" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-3" target="l4TFurfITF2KFFCBmmSl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-3" value="sayilar[0]&amp;nbsp;&lt;br&gt;sayilar[1]&amp;nbsp;&lt;br&gt;sayilar[2]&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="160" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-4" target="l4TFurfITF2KFFCBmmSl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-4" target="l4TFurfITF2KFFCBmmSl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-4" value="i = 0; i &amp;lt; sayilar.length; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="250" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-5" target="l4TFurfITF2KFFCBmmSl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-8" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l4TFurfITF2KFFCBmmSl-7">
+          <mxGeometry x="0.3434" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-5" target="l4TFurfITF2KFFCBmmSl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-10" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l4TFurfITF2KFFCBmmSl-9">
+          <mxGeometry x="0.3626" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-5" value="sayilar[i] &amp;gt; sayilar[i+1]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="360" width="151" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-6" target="l4TFurfITF2KFFCBmmSl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-6" value="let temp = sayilar[i+1]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="405" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-11" target="l4TFurfITF2KFFCBmmSl-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-11" value="sayilar[i+1]=sayilar[i]&lt;br&gt;sayilar[i]=temp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="310" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="l4TFurfITF2KFFCBmmSl-14" target="l4TFurfITF2KFFCBmmSl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-14" value="sayilar[1]" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l4TFurfITF2KFFCBmmSl-16" value="Başla" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="355" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

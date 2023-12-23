@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework4</title>
+</head>
+<body>
+    Open console
+    <script>
+        let sayilar = []
+        sayilar[0] = +prompt("1. sayıyı giriniz.")
+        sayilar[1] = +prompt("2. sayıyı giriniz.")
+        sayilar[2] = +prompt("3. sayıyı giriniz.")
+
+        for (let i = 0; i < sayilar.length; i++) {
+            if(sayilar[i] > sayilar[i+1])
+            {
+                let temp = sayilar[i+1];
+                sayilar[i+1]=sayilar[i];
+                sayilar[i]=temp;
+            }
+        }
+
+        console.log(sayilar[1])
+    </script>
+</body>
+</html>
