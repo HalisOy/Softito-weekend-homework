@@ -1,0 +1,155 @@
+.navbar,.navbar-nav{
+    --bs-navbar-nav-link-padding-x:0px;
+    --bs-nav-link-padding-y:0.25rem;
+    
+}
+.navbar{
+    background-color: #13294D;
+}
+
+.nav-link{
+    padding: 0;
+    margin: 0 15px;
+}
+
+.nav-link:first-child{
+    font-weight: bold;
+    --bs-nav-link-color: #fff;
+}
+
+.nav-link:last-child{
+    margin-right: 0;
+    font-weight: bold;
+    --bs-nav-link-color: #fff;
+}
+
+.nav-link.active,.nav-link:hover{
+    border-bottom: 2px solid #ff3703;
+    transition: 0s;
+}
+
+
+.bg-color{
+    background-color: #13294D;
+}
+
+.top-body{
+    height: 600px;
+}
+
+.top-body-text{
+    font-size: 50px;
+    height: 600px;
+}
+.top-body-text>div{
+    height: 44px;
+    width: 300px;
+}
+.top-body-text>div>input{
+    outline: none;
+    background-color: transparent;
+}
+.top-body-text>div>button{
+    height: 42px;
+    width: 42px;
+    background-color: #ff3703;
+}
+
+.video-box{
+    width: 400px;
+    height: 400px;
+    background: url("assets/img/video.jpg");
+    background-size: 430px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -70px;
+}
+
+.top-body-slider{
+    width: 100px;
+    height: 30px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.top-body-slider div{
+    width: 20px;
+    height: 20px;
+}
+
+.cursor-pointer:hover{
+    cursor: pointer;
+}
+
+.middle-top{
+    height: 500px;
+}
+
+.middle-top-text{
+    width: 90%;
+}
+
+.up-shape{
+    width: 100%;
+    height: 800px;
+    background: url("assets/img/upshape.svg");
+    background-repeat: no-repeat;
+
+}
+
+.up-shape-text{
+    margin-top: 300px;
+}
+
+.portfolio-btn{
+    background-color: #ff3703;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.75);
+}
+
+.card{
+    background-color: #13294D;
+}
+
+.card-img-top{
+    width: 80%;
+}
+
+.card-div{
+    height: 600px;
+}
+
+.more-plans-btn{
+    width: 180px;
+    height: 50px;
+    background-color: #68defc;
+}
+
+.down-shape{
+    width: 100%;
+    height: 500px;
+    background: url("assets/img/downshape.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.down-shape-text{
+    height: 500px;
+}
+
+.sign-up-btn{
+    width: 180px;
+    height: 50px;
+    background-color: #8065ff;
+    color: #fff;
+}
+
+.watch-video-btn{
+    width: 180px;
+    height: 50px;
+    color: #8065ff;
+}
